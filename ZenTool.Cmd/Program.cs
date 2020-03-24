@@ -1,7 +1,8 @@
 ﻿using System;
+using System.Text;
 using ZenTool.AppService.AppServices;
 using ZenTool.AppService.IAppServices;
-using System.Text.Json;
+using Newtonsoft.Json;
 
 namespace ZenTool.Cmd
 {
@@ -9,18 +10,18 @@ namespace ZenTool.Cmd
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            Console.WriteLine("Hello World!你好");
+            string id = "10396"; // Console.ReadLine();
 
-            while(true)
-            {
-                string id = Console.ReadLine();
-                
-                IZenTaskAppService service = new ZenTaskAppService();
+            IZenTaskAppService service = new ZenTaskAppService();
 
-                var re= service.GetById(long.Parse( id));
+            var re = service.GetById(long.Parse(id));
 
-                Console.WriteLine(JsonSerializer.Serialize(re));
-            }
+            var x = JsonConvert.SerializeObject(re);
+
+            Console.WriteLine();
+
+            Console.ReadLine();
         }
     }
 }

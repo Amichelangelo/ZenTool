@@ -7,9 +7,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ZenTool.Cmd", "ZenTool.Cmd\
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1.UI", "1.UI", "{C5510749-B109-484F-9988-D8D30A6B1598}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2.AppService(业务)", "2.AppService(业务)", "{B73C3A69-87B9-42EE-90C3-4856A4EC01C0}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2.AppService", "2.AppService", "{B73C3A69-87B9-42EE-90C3-4856A4EC01C0}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "4.Domain（领域）", "4.Domain（领域）", "{26E78600-7A4E-4330-99EA-9FDFD6001A32}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "4.Domain", "4.Domain", "{26E78600-7A4E-4330-99EA-9FDFD6001A32}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3.Repository", "3.Repository", "{7AF411A0-975C-481F-84AF-FED76F64A7F8}"
 EndProject
@@ -23,7 +23,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ZenTool.Domain", "ZenTool.D
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ZenTool.Infrastructure", "ZenTool.Infrastructure\ZenTool.Infrastructure.csproj", "{36ED6F02-DFAB-4FA2-9AD7-90C93B4F1078}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ZenTool.EfRepository", "ZenTool.EfRepository\ZenTool.EfRepository.csproj", "{7AE03CF4-158D-4997-B336-5DB6FE0FE732}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ZenTool.EfRepository", "ZenTool.EfRepository\ZenTool.EfRepository.csproj", "{7AE03CF4-158D-4997-B336-5DB6FE0FE732}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

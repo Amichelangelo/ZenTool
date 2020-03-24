@@ -25,19 +25,19 @@ namespace ZenTool.Domain.Entity
         public string openedBy { get; set; }
         public string openedDate { get; set; }
         public string assignedTo { get; set; }
-        //public string assignedDate { get; set; }
-        //public string estStarted { get; set; }
-        //public string realStarted { get; set; }
+        public string assignedDate { get; set; }
+        public string estStarted { get; set; }
+        public string realStarted { get; set; }
         public string finishedBy { get; set; }
-        //public string finishedDate { get; set; }
+        public string finishedDate { get; set; }
         public string finishedList { get; set; }
         public string canceledBy { get; set; }
-        //public string canceledDate { get; set; }
+        public string canceledDate { get; set; }
         public string closedBy { get; set; }
-        //public string closedDate { get; set; }
+        public string closedDate { get; set; }
         public string closedReason { get; set; }
         public string lastEditedBy { get; set; }
-        //public string lastEditedDate { get; set; }
+        public string lastEditedDate { get; set; }
         public string deleted { get; set; }
 
     }
